@@ -13,8 +13,19 @@ You can choose to manually clone the repo, build the Java classes usin maven, an
 
 After that you can move the resulting ZIP file to the a folder called `plugins` inside your working directory.
 
-## Downloading from releases
+## Downloading from releases 
 
+```
+mkdir -p ~/.openstreetmap/osmosis/plugins && \
+    cd ~/.openstreetmap/osmosis/plugins && \
+    wget https://github.com/baato/osmosis-remove-author/releases/download/v1.0.0/osmosis-remove-author-1.0.0.tar.gz && \
+    mkdir osmosis-remove-author && \
+    tar xvzf osmosis-remove-author-1.0.0.tar.gz -C ./osmosis-remove-author && \
+    cd osmosis-remove-author && \
+    zip -r ../osmosis-remove-author.zip * && \
+    cd .. &&  rm -rf osmosis-remove-author *.tar.gz 
+
+```
 
 
 
