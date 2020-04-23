@@ -1,4 +1,4 @@
-### remove-author plugin for OpenStreetMap's Osmosis 
+## `remove-author` plugin for OpenStreetMap's Osmosis 
 
 When repopulating a private OpenStreetMap API DB, it is useful to get rid of user information, as this prevents clutter in the API DB's users table.
 
