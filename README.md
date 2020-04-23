@@ -1,8 +1,8 @@
-# `remove-author` plugin for OpenStreetMap's Osmosis 
+# Osmosis `remove-author` plugin 
 
 When repopulating a private OpenStreetMap API DB, it is useful to get rid of user information, as this prevents clutter in the API DB's users table.
 
-The plugin works out-of-the-box to delet user information from an OSM file. 
+The plugin works out-of-the-box to delete user information from an OSM file. 
 
 ## Installation
 
@@ -14,6 +14,8 @@ You can choose to manually clone the repo, build the Java classes usin maven, an
 After that you can move the resulting ZIP file to the a folder called `plugins` inside your working directory.
 
 ## Downloading from releases 
+
+Alternatively, you can also download an existing release, and use the following steps for getting started. This is more useful in containerized environments.
 
 ```
 mkdir -p ~/.openstreetmap/osmosis/plugins && \
