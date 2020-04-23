@@ -34,9 +34,9 @@ mkdir -p ~/.openstreetmap/osmosis/plugins && \
 ## Usage
 ```
 osmosis \
-    --read-pbf input.osm \
+    --read-pbf input.osm.pbf \
     --remove-author \
-    --write-pbf output.osm
+    --write-pbf output.osm.pbf
 ```
 
 
